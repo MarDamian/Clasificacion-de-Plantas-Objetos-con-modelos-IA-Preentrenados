@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1{
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.preview {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative; 
+}
+
+#imagePreview {
+    max-width: 100%; 
+    max-height: 600px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    display: flex; 
+    align-items: center; 
+}
+
+#imagePreview img {
+    width: auto; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 100%; 
+    flex: 1; 
+}
+
+
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 10px 10px 10px 10px;
+    background-color: #27ae60;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden; /* Ocultar el texto "Seleccionar archivo" */
+}
+
+.custom-file-upload input[type="file"] {
+    display: none; /* Ocultar el input de tipo archivo */
+}
+
+/* Estilos para la sección de resultados */
+.results {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
